@@ -1,0 +1,16 @@
+\subsection{Thermal resistance model}
+    assumption: $\lambda = const$
+    \begin{empheq}{align*}
+        \dot{Q_x} = \dot{Q_x}'' A = \frac{1}{R_{th}} \Delta T\\
+    \end{empheq}
+
+    \begin{tabular}{c c c}
+        \textbf{Geometry} & \textbf{Conduction $R_{th}$} & \textbf{Convection $R_{th}$}\\
+        Planar & $\frac{L}{\lambda A}$ & $\frac{1}{\alpha A}$ \\
+        Cylinder & $\frac{\ln\left(\frac{r_2}{r_1}\right)}{2 \pi \lambda L}$ & $\frac{1}{2 \pi r_1 L \alpha}$ \\
+        Sphere & $\frac{\frac{1}{R_1} - \frac{1}{R_2}}{4 \pi \lambda}$ & $\frac{1}{4 \pi r^2 \alpha}$ \\
+    \end{tabular}
+
+    Note that for some pipes, there exists a critical thickness of the pipe insulation, for which the thermal insulation of a thin insulation layer is lower than without insulation layer.\\
+    $R_{crit}: \frac{d}{dr_2} (R_{tot}) = 0, R_{tot} = R_{th, ins} + R_{th, conv}$\\
+    $\Rightarrow r_{2, crit} = \frac{\lambda}{\alpha}$

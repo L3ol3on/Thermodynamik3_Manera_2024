@@ -1,0 +1,37 @@
+\subsection{Fouriers Law}
+    \begin{minipage}{0.49\linewidth}
+        \begin{empheq}[box = \fbox]{align*}
+            &\vec{\dot{q}}'' = -\lambda \nabla T\\
+            \text{1D:} \quad & \dot{q_x}'' = \frac{\dot{Q}}{A}= -\lambda \frac{dT}{dx}
+        \end{empheq}
+    \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \begin{scriptsize}
+            \begin{empheq}{align*}
+                \vec{\dot{q}}'' = \text{Heat flux}, \left[\frac{W}{m^2}\right]\\
+                \lambda = \text{thermal conductivity}, \left[\frac{W}{m K}\right]\\
+            \end{empheq}
+        \end{scriptsize}
+    \end{minipage}
+
+    3-Dimensional equations follow the fouriers and fick's law:
+    \begin{empheq}[box = \fbox]{align*}
+        \vec{\dot{q}}'' &= \underbrace{-\lambda \frac{\partial T}{\partial x} \hat{x}}_{\dot{q}_x''} \underbrace{-\lambda \frac{\partial T}{\partial y} \hat{y}}_{\dot{q}_y''} \underbrace{-\lambda \frac{\partial T}{\partial z} \hat{z}}_{\dot{q}_z''}\\
+        \vec{\dot{q}}'' &= \underbrace{-\lambda \frac{\partial T}{\partial r} \hat{r}}_{\dot{q}_r''} \underbrace{-\lambda \frac{\partial T}{r \partial \phi} \hat{\phi}}_{\dot{q}_\phi''} \underbrace{-\lambda \frac{\partial T}{\partial z} \hat{z}}_{\dot{q}_z''}\\
+        \vec{\dot{q}}'' &= \underbrace{-\lambda \frac{\partial T}{\partial r} \hat{r}}_{\dot{q}_r''} \underbrace{-\lambda \frac{\partial T}{r \partial \theta} \hat{\theta}}_{\dot{q}_\theta''} \underbrace{-\lambda \frac{\partial T}{r \sin(\theta) \partial \phi} \hat{\phi}}_{\dot{q}_\phi''}
+    \end{empheq}
+    \textbf{Koordinatensysteme Zylindrisch und Sphärisch}
+
+    \titel{Some common thermal conductivities}
+    \begin{tabular}{c c}
+        \textbf{Material} & \textbf{thermal conductivity $ \lambda \left[\frac{W}{mK}\right]$}\\
+        Aluminium: & 240\\
+        Copper: & 400\\
+        Carbon steels: & 40-60\\
+        Stainless steels: & 15\\
+        Helium: & 0.152\\
+        Air or $N_2$: & 0.026\\
+        Steam (100°C): & 0.025\\
+        Plastic: & 0.2\\
+        Rubber: & 0.16\\
+    \end{tabular}
