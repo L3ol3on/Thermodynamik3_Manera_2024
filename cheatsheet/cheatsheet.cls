@@ -32,7 +32,7 @@
 \RequirePackage{changepage}
 \RequirePackage{etoolbox} % check ifempty
 \RequirePackage[dvipsnames]{xcolor}
-\newcommand{\customColor}{Peach}
+\newcommand{\customColor}{LimeGreen}
 \RequirePackage{tcolorbox}
 
 
@@ -203,6 +203,12 @@
     \vskip4pt%
     \begin{center}%
         \fontfamily{qcr}\selectfont #1%
+    \end{center}%
+}
+
+\newcommand{\titel}[1]{%
+    \begin{center}%
+        \textbf{\underline{#1}}%
     \end{center}%
 }
 

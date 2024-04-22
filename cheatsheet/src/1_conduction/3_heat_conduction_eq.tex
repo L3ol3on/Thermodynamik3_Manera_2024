@@ -1,0 +1,24 @@
+\subsection{Heat Conduction Equation}
+    \begin{empheq}{align*}
+        \text{Remember:} \quad
+        \nabla = 
+        \begin{bmatrix}
+            \frac{\partial}{\partial x}\\
+            \frac{\partial}{\partial y}\\
+            \frac{\partial}{\partial z}
+        \end{bmatrix}
+    \end{empheq}
+
+    \begin{empheq}[box = \fbox]{align*}
+        &\underbrace{\rho c \frac{\partial T}{\partial t}}_{\substack{\text{th. energy flow}\\ \text{into control volume}}} = \underbrace{\vec{\nabla} \left(\lambda \vec{\nabla} T\right)}_{\substack{\text{Change in thermal} \\ \text{energy storage}}} + \underbrace{\dot{Q}_{\text{source}}'''}_{\substack{\text{Thermal energy} \\ \text{generation}}}\\
+        &= \frac{\partial}{\partial x} \left(\lambda \frac{\partial T}{\partial x}\right) + \frac{\partial}{\partial y} \left(\lambda \frac{\partial T}{\partial y}\right) + \frac{\partial}{\partial z} \left(\lambda \frac{\partial T}{\partial z}\right) + \dot{Q}_{\text{source}}'''\\
+        &= \frac{1}{r} \frac{\partial}{\partial r} \left(\lambda r \frac{\partial T}{\partial r}\right) + \frac{1}{r^2} \frac{\partial}{\partial \varphi} \left(\lambda \frac{\partial T}{\partial \varphi}\right) + \frac{\partial}{\partial z} \left(\lambda \frac{\partial T}{\partial z}\right) + \dot{Q}_{\text{source}}'''\\
+        &= \frac{1}{r^2} \frac{\partial}{\partial r} \left(\lambda r^2 \frac{\partial T}{\partial r}\right) + \frac{1}{r^2 \sin^{\theta}} \frac{\partial}{\partial \varphi} \left(\lambda \frac{\partial T}{\partial \varphi}\right) + \frac{1}{r^2 \sin(\theta)} \frac{\partial}{\partial \theta} \left(\lambda \sin(\theta) \frac{\partial T}{\partial \theta}\right) + \dot{Q}_{\text{source}}'''
+    \end{empheq}
+    
+    \subsubsection{Solving the Heat Conduction Equation: Boundary conditions \textbf{(Noch machen, Lecture 2 oder 3)}}
+        \begin{itemize}
+            \item Surface Temperature known
+            \item Heat Flux known
+            \item Convection known
+        \end{itemize}
