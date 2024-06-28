@@ -581,10 +581,6 @@ INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT ./src/1_conduction/1_definition.tex
-INPUT src/1_conduction/1_definition.tex
-INPUT ./src/1_conduction/1_definition.tex
-INPUT src/1_conduction/1_definition.tex
 INPUT ./src/1_conduction/2_fouriers_law.tex
 INPUT src/1_conduction/2_fouriers_law.tex
 INPUT ./src/1_conduction/2_fouriers_law.tex

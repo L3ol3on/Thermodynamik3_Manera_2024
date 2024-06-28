@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  22 APR 2024 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  28 JUN 2024 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -677,7 +677,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \Hy@linkcounter=\count321
-(./src/1_conduction/1_definition.tex) (./src/1_conduction/2_fouriers_law.tex
+(./src/1_conduction/2_fouriers_law.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 34.
 
@@ -702,13 +702,13 @@ Package pdftex.def Info: src/images/lumped_cap.png  used on input line 8.
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src/image
 s/lumped_cap.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 14559 strings out of 476024
- 295936 string characters out of 5792021
- 1911388 words of memory out of 5000000
- 34740 multiletter control sequences out of 15000+600000
+ 14553 strings out of 476024
+ 295762 string characters out of 5792021
+ 1910388 words of memory out of 5000000
+ 34737 multiletter control sequences out of 15000+600000
  518293 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,20n,118p,450b,866s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,20n,118p,450b,865s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/texdir/texmf-dist/fonts/enc/dvip
 s/cm-super/cm-super-ts1.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/
 amsfonts/cmextra/cmex7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/a
@@ -721,7 +721,7 @@ ive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/texlive
 /texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/texlive/texdi
 r/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/texdir/texm
 f-dist/fonts/type1/public/cm-super/sfss0700.pfb>
-Output written on main.pdf (1 page, 190891 bytes).
+Output written on main.pdf (1 page, 190683 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
