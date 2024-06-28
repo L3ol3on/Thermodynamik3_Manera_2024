@@ -1,0 +1,57 @@
+\documentclass[numerate]{article}
+\usepackage[a4paper,
+bindingoffset=0.2in,
+left=0.5in,
+right=0.5in,
+top=1in,
+bottom=1in,
+footskip=.25in]{geometry}
+\usepackage{bm}
+\usepackage{textcomp, mathcomp}
+\usepackage{empheq}
+\usepackage{pbox}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\newcommand{\titel}[1]{%
+    \begin{center}%
+        \textbf{\underline{#1}}%
+    \end{center}%
+}
+
+\author{Christian Leser (cleser@ethz.ch) \\ \vspace*{-0.2em}}
+\title{Thermodynamics III Cheatsheet}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Conduction}
+	\input{src/1_conduction/1_fourier.tex}
+	\input{src/1_conduction/2_heat_cond_eq.tex}
+	\input{src/1_conduction/3_3d.tex}
+
+\section{Convection}
+	\input{src/2_convection/1_formula.tex}
+
+\section{Thermal Resistance model}
+	\input{src/3_th_resistances/1_resistances.tex}
+
+\section{Dimensional Analysis}
+	\input{src/4_dimensionless/1_numbers.tex}
+	\input{src/4_dimensionless/2_forced_free_convection.tex}
+	\input{src/4_dimensionless/3_heat_tr_correlations.tex}
+
+\section{Lumped capacitance method}
+	\input{src/5_lumped_capacitance/1_approach.tex}
+	\input{src/5_lumped_capacitance/2_temp.tex}
+
+\section{Boundary layer analysis}
+	\input{src/6_boundary_analysis/1_cont_mom_en.tex}
+	\input{src/6_boundary_analysis/2_bl.tex}
+
+\section{Heat exchanger}
+	\input{src/7_hex/1_heat_transfer.tex}
+	\input{src/7_hex/2_temp_eff.tex}
+
+\end{document}

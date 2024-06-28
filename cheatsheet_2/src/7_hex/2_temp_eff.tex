@@ -1,0 +1,25 @@
+\subsection{Temperature in / efficiency of heat exchanger}
+    \begin{minipage}{0.49\linewidth}
+        \titel{parallel}
+        \begin{empheq}[box = \fbox]{flalign*}
+            \Delta T(x) &= \Delta T_{(x = 0)} exp\left(-U \left(\frac{1}{C_H} + \frac{1}{C_C}\right) W x\right)&&\\
+            \varepsilon &= \frac{1 - e^{-N(1 + \rho_S)}}{1 + \rho_S}&&
+        \end{empheq}
+    \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \titel{counter}
+        \begin{empheq}[box = \fbox]{flalign*}
+            \Delta T(x) &= \Delta T_{(x = 0)} exp\left(-U \left(\frac{1}{C_H} - \frac{1}{C_C}\right) W x\right)&&\\
+            \varepsilon &= \frac{1 - e^{-N(1 - \rho_S)}}{1 - \rho_S e^{-N(1 - \rho_S)}}&&
+        \end{empheq}
+    \end{minipage}\\
+    \begin{scriptsize}
+        \begin{empheq}{align*}
+            N = \frac{U A}{C_{\text{min}}} \quad
+            \rho_S = \frac{C_{\text{min}}}{C_{\text{max}}} \quad
+            C_{\text{min}} = min(C_{h}, C_{c}) \quad
+            C_{\text{max}} = max(C_{h}, C_{c}) \quad
+            W = \text{width of heat transfer surface}, \left[m\right] \\
+            \text{Note: } C = \dot{m} c_p \quad \varepsilon = \frac{\dot{q}}{\dot{q}_{\text{max}}} = \frac{C_H (T_{\text{H, in}} - T_{\text{H, out}})}{C_{\text{min}}(T_{\text{H, in}} - T_{\text{C, in}})}
+        \end{empheq}
+    \end{scriptsize}

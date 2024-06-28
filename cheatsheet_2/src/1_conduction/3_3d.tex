@@ -1,0 +1,9 @@
+\subsection{3D relations}
+    \begin{empheq}[box = \fbox]{align*}
+        \begin{array}{c c c}
+            \text{Geometry} & \text{3D Fouriers Law} & \text{Heat conduction equation operators}\\
+            \text{Planar} & \underbrace{-\lambda \frac{\partial T}{\partial x} \hat{x}}_{\dot{q}_x''} \underbrace{-\lambda \frac{\partial T}{\partial y} \hat{y}}_{\dot{q}_y''} \underbrace{-\lambda \frac{\partial T}{\partial z} \hat{z}}_{\dot{q}_z''} & \frac{\partial}{\partial x} \left(\lambda \frac{\partial T}{\partial x}\right) \\
+            \text{Cylinder} & \underbrace{-\lambda \frac{\partial T}{\partial r} \hat{r}}_{\dot{q}_r''} \underbrace{-\lambda \frac{\partial T}{r \partial \phi} \hat{\phi}}_{\dot{q}_\phi''} \underbrace{-\lambda \frac{\partial T}{\partial z} \hat{z}}_{\dot{q}_z''} & \frac{1}{r} \frac{\partial}{\partial r} \left(\lambda r \frac{\partial T}{\partial r}\right) \\
+            \text{Sphere} & \underbrace{-\lambda \frac{\partial T}{\partial r} \hat{r}}_{\dot{q}_r''} \underbrace{-\lambda \frac{\partial T}{r \partial \theta} \hat{\theta}}_{\dot{q}_\theta''} \underbrace{-\lambda \frac{\partial T}{r \sin(\theta) \partial \phi} \hat{\phi}}_{\dot{q}_\phi''} & \frac{1}{r^2} \frac{\partial}{\partial r} \left(\lambda r^2 \frac{\partial T}{\partial r}\right)
+        \end{array}
+    \end{empheq}

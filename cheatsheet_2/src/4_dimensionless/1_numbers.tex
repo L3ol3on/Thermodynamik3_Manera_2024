@@ -1,0 +1,36 @@
+\subsection{Dimensionless Numbers}
+    \begin{minipage}{0.54\linewidth}
+        \begin{empheq}[box = \fbox]{align*}
+            \text{Nusselt number:} \quad & Nu \equiv \frac{\alpha L}{\lambda_{Fluid}} = \frac{\substack{ \text{Heat transfer} \\ \text{due to convection}}}{\substack{\text{Heat conduction} \\ \text{in the fluid}}}\\
+            \text{Biot number:} \quad & Bi \equiv \frac{\alpha L}{\lambda_{\text{Wall}}} = \frac{\substack{ \text{Thermal resistance} \\ \text{inside body}}}{\substack{\text{Convective resistance} \\ \text{at surface}}}\\
+            \text{Reynolds number:} \quad & Re \equiv \frac{\rho w D_h}{\mu} = \frac{\text{inertia}}{\text{viscous forces}}\\
+            \text{Prandtl number:} \quad & Pr \equiv \frac{\mu c_p}{\lambda} = \frac{\text{Momentum diffusivity}}{\text{Thermal diffusivity}}\\
+            \text{Grashof number:} \quad & Gr \equiv \frac{\beta \Delta T g L^3}{\left(\frac{\mu}{\rho}\right)^2} = \frac{\text{Buoyancy force}}{\text{Viscous force}}\\
+            \text{Peclet number:} \quad & Pe \equiv Re \cdot Pr\\
+            \text{Rayleigh number:} \quad & Ra \equiv Gr \cdot Pr\\
+            \text{Hydraulic diameter:} \quad & D_h \equiv \frac{4 A}{P_w}\\
+        \end{empheq}
+    \end{minipage}
+    \begin{minipage}{0.44\linewidth}
+        \begin{scriptsize}
+            \begin{empheq}{align*}
+                c_p &= \text{Heat capacity}, \left[\frac{J}{kg K}\right]\\
+                \beta &= \substack{\text{isobaric volumetric thermal} \\ \text{expansion coefficient}}, \left[K^{-1}\right]\\
+                g &= \text{acceleration of gravity} = 9.81 \frac{m}{s^2}\\
+                w &= \text{velocity of fluid}, \left[\frac{m}{s}\right]\\
+                \Delta T &= \substack{\text{temperature difference} \\ \text{surface vs. fluid}}, \left[K\right]\\
+                L &= \text{characteristic length}\\
+                &= \frac{\text{Volume}}{\text{Surface Area}} = 
+                    \begin{cases}
+                        \frac{r}{3}, & \text{sphere}\\
+                        \frac{r}{2}, & \text{cylinder}
+                    \end{cases}, 
+                    \left[m\right]\\
+                \mu &= \text{fluid dynamic viscosity}, \left[Pa s\right]\\
+                \rho &= \text{fluid density}, \left[\frac{kg}{m^3}\right]\\
+                A &= \text{cross-sectional area of flow}, \left[m^2\right]\\
+                P_w &= \text{wetted perimeter of cross-section}, \left[m\right]\\
+                &= 2 \pi r \text{ for cylindrical tube}
+            \end{empheq}
+        \end{scriptsize}
+    \end{minipage}

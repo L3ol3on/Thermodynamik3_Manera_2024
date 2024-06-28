@@ -1,0 +1,19 @@
+\subsection{Heat conduction equation}
+\vspace*{-1em}
+    \begin{minipage}{0.49\linewidth}
+        \begin{empheq}[box = \fbox]{align*}
+            \underbrace{\rho c \frac{\partial T}{\partial t}}_{\substack{\text{th. energy flow}\\ \text{into control volume}}} = \underbrace{\vec{\nabla} \left(\lambda \vec{\nabla} T\right)}_{\substack{\text{Change in thermal} \\ \text{energy storage}}} + \underbrace{\dot{Q}_{\text{source}}'''}_{\substack{\text{Thermal energy} \\ \text{generation}}}
+        \end{empheq}
+    \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \begin{scriptsize}
+            \begin{empheq}{align*}
+                \nabla = 
+                \begin{bmatrix}
+                    \frac{\partial}{\partial x}\\
+                    \frac{\partial}{\partial y}\\
+                    \frac{\partial}{\partial z}
+                \end{bmatrix}
+            \end{empheq}
+        \end{scriptsize}
+    \end{minipage}
